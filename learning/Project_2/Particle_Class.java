@@ -27,7 +27,7 @@ import java.util.Arrays;
 public class Particle_Class{ //implements Comparable<Particle_Class>{
 	
 	public static void main (String[] args) {
-		int Num_Particles=200000;
+		int Num_Particles=10;
 		String Out_NAME="Particles"+Num_Particles;
 		System.out.println("Generating" + Num_Particles + " Particles");
 		Particles[] cluster = new Particles[Num_Particles];
@@ -42,6 +42,11 @@ public class Particle_Class{ //implements Comparable<Particle_Class>{
 			tem_cor[i]=cluster[i].x[0];
 		}
 		Arrays.sort(tem_cor);
+		
+		
+		
+		
+		
 		
 		for (int i=0; i<Num_Particles; i++){
 			cluster[i] = new Particles(tem_cor[i]);
