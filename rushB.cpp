@@ -8,6 +8,36 @@
  explanation of input requirements.  Reference https://discuss.codechef.com/questions/4179/rushhour-editorial
  , Setter's Solution for code attribution*/
 
+/*Please use the following for testing.  
+ Copy/Paste entire block into Input
+
+3
+
+6 6 13
+b.c..e
+b.cdde
+fghaal
+fghjjl
+.giikk
+mmm...
+
+6 8 12
+........
+.bb.cc.d
+aad.hijk
+fed.hijk
+feg..j.l
+f.g..j.l
+
+
+6 12 20
+............
+aa.b.c..r..s
+.a.b.c..r..s
+..ef.jkl.mno
+..ef.jkl.mno
+..efgjk..mno*/
+
  
 #include <iostream>
 #include <fstream>
